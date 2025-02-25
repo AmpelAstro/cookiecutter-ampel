@@ -27,3 +27,7 @@ git add .; git commit -m 'initial commit'
 git remote add origin git@github.com:AmpelAstro/Ampel-LS4.git
 git push -u origin main
 ```
+
+## Synchronizing generated projects
+
+This template provisions a workflow that synchronizes the generated repository with the current state of the template, and files a PR with those changes. If the action fails with the error message "GitHub Actions is not permitted to create or approve pull requests", you must (allow GitHub Actions to create and approve pull requests)[https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#preventing-github-actions-from-creating-or-approving-pull-requests], both on the organization, and, if applicable, on the repository level.
