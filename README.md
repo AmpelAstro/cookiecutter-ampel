@@ -1,6 +1,6 @@
 # cookiecutter-ampel
 
-[cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) template for Ampel plugins that sets up basic directory structure, linting, type checking, and CI.
+[cookiecutter](https://readthedocs.io/en/stable/README.html) template for Ampel plugins that sets up basic directory structure, linting, type checking, and CI.
 
 ## Usage
 
