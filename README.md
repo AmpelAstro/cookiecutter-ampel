@@ -16,4 +16,14 @@ Best used with [cruft](https://cruft.github.io/cruft/).
   [5/6] author_email (a.stronomer@mail.to): 
   [6/6] version (0.10.0a0): 
 ```
-- Fill your project with life and enjoy!
+
+Then, fill out and push your project:
+
+```
+cd Ampel-LS4
+poetry lock
+git init .
+git add .; git commit -m 'initial commit'
+git remote add origin git@github.com:AmpelAstro/Ampel-LS4.git
+git push -u origin main
+```
