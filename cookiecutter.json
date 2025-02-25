@@ -1,7 +1,7 @@
 {
   "project_name": "SomeTelescope",
   "github_org_or_username": "AmpelAstro",
-  "description": "SomeTelescope support for the Ampel system",
+  "description": "{{cookiecutter.project_name}} support for the Ampel system",
   "author_full_name": "Alexandra Stronomer",
   "author_email": "a.stronomer@mail.to",
   "version": "0.10.0a0"
