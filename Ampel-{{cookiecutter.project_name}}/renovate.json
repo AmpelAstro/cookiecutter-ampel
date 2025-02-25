@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "github>AmpelProject/renovate-config",
+    "github>AmpelProject/renovate-config//regexManagers/githubActionsVersions",
+    "github>AmpelProject/renovate-config//regexManagers/precommitVersions"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "packageRules": [
+    {
+      "allowedVersions": "<0.11",
+      "matchPackageNames": [
+        "/^ampel-.*/"
+      ]
+    }
+  ]
+}
