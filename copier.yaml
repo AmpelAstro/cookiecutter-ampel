@@ -2,17 +2,17 @@ project_name:
   placeholder: SomeTelescope
   type: str
 github_org_or_username:
-  placeholder: AmpelAstro
+  default: AmpelAstro
   type: str
 description:
-  placeholder: '{{project_name}} support for the Ampel system'
+  default: '{{project_name}} support for the Ampel system'
   type: str
 author_full_name:
-  placeholder: Alexandra Stronomer
+  default: Alexandra Stronomer
   type: str
 author_email:
-  placeholder: a.stronomer@mail.to
+  default: a.stronomer@mail.to
   type: str
 version:
-  placeholder: 0.10.0a0
+  default: 0.10.0a0
   type: str
