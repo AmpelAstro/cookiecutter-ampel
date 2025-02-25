@@ -1,2 +1,2 @@
-# {{cookiecutter.project_name}}
+# Ampel-{{cookiecutter.project_name}}
 
