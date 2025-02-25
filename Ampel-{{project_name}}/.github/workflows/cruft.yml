@@ -18,22 +18,8 @@ jobs:
       - name: Install copier
         run: pip3 install copier
 
-      - name: Check if update is available
-        continue-on-error: false
-        id: check
-        run: |
-          CHANGES=0
-          if [ -f .cruft.json ]; then
-            if ! cruft check; then
-              CHANGES=1
-            fi
-          else
-            echo "No .cruft.json file"
-          fi
 
-          echo "has_changes=$CHANGES" >> "$GITHUB_OUTPUT"
-
-      - name: Run update if available
+      - name: Update template
         id: update
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
