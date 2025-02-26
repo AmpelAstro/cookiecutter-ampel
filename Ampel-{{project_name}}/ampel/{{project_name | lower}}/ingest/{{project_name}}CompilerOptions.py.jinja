@@ -1,0 +1,12 @@
+from typing import Any
+
+from ampel.model.ingest.CompilerOptions import CompilerOptions
+
+
+class {{ project_name }}CompilerOptions(CompilerOptions):
+    stock: dict[str, Any] = {"tag": "{{project_name | upper}}"}
+    t0: dict[str, Any] = {"tag": "{{project_name | upper}}"}
+    t1: dict[str, Any] = {"tag": "{{project_name | upper}}"}
+    state_t2: dict[str, Any] = {"tag": "{{project_name | upper}}"}
+    point_t2: dict[str, Any] = {"tag": "{{project_name | upper}}"}
+    stock_t2: dict[str, Any] = {"tag": "{{project_name | upper}}"}

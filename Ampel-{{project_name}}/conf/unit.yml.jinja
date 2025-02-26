@@ -1,0 +1,9 @@
+unit:
+# Context units
+- ampel.{{project_name | lower}}.ingest.{{ project_name }}MongoMuxer
+# Logical units
+- ampel.{{project_name | lower}}.ingest.{{ project_name }}DataPointShaper
+# Aux units
+- ampel.{{project_name | lower}}.alert.{{ project_name }}AlertSupplier
+- ampel.{{project_name | lower}}.ingest.{{ project_name }}CompilerOptions
+- ampel.{{project_name | lower}}.view.{{ project_name }}T2Tabulator

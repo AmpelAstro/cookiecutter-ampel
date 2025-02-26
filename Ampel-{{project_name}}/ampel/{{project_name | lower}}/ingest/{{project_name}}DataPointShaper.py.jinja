@@ -1,0 +1,19 @@
+from typing import Any
+
+from ampel.abstract.AbsT0Unit import AbsT0Unit
+from ampel.content.DataPoint import DataPoint
+from ampel.types import StockId
+
+
+class {{project_name}}DataPointShaper(AbsT0Unit):
+    """
+    This class 'shapes' datapoints in a format suitable
+    to be saved into the ampel database
+    """
+
+    def process(self, arg: Any, stock: None | StockId = None) -> list[DataPoint]:
+        """
+        :param arg: sequence of unshaped datapoints
+        """
+
+        raise NotImplementedError
